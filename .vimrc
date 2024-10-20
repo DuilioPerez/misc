@@ -32,6 +32,9 @@ call plug#begin("~/.vim/plugged")
   " Omnisharp configuration.
   Plug 'OmniSharp/omnisharp-vim'
 
+  " Added extra syntax highlights.
+  Plug 'sheerun/vim-polyglot' 
+
 call plug#end()
 
 
