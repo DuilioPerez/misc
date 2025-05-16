@@ -89,5 +89,11 @@ if(MINGW_FORCE_INSTALLATION_PREFIX)
       FILEPATH "CMake installation prefix" FORCE)
 endif()
 
+# Set some installation directories.
+set(CMAKE_INSTALL_BINDIR     "bin" CACHE PATH "User executables" FORCE)
+set(CMAKE_INSTALL_LIBDIR     "lib" CACHE PATH "Object code libraries" FORCE)
+set(CMAKE_INSTALL_INCLUDEDIR "include" CACHE PATH "Header files" FORCE)
+set(CMAKE_INSTALL_RUNTIMEDIR "lib" CACHE PATH "Runtime DLLs" FORCE)
+
 # Prevent CMake from trying to build executables for test
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
