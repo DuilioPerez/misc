@@ -95,5 +95,9 @@ set(CMAKE_INSTALL_LIBDIR     "lib" CACHE PATH "Object code libraries" FORCE)
 set(CMAKE_INSTALL_INCLUDEDIR "include" CACHE PATH "Header files" FORCE)
 set(CMAKE_INSTALL_RUNTIMEDIR "lib" CACHE PATH "Runtime DLLs" FORCE)
 
+# Set the library prefix.
+set(CMAKE_SHARED_LIBRARY_PREFIX "")
+set(CMAKE_STATIC_LIBRARY_PREFIX "")
+
 # Prevent CMake from trying to build executables for test
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
