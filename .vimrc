@@ -29,9 +29,6 @@ call plug#begin("~/.vim/plugged")
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'adelarsq/vim-devicons-emoji'
 
-  " Omnisharp configuration.
-  Plug 'OmniSharp/omnisharp-vim'
-
 call plug#end()
 
 
@@ -219,19 +216,6 @@ map <C-W>c <Plug>(wintabs_close_window)
 map <C-W>o <Plug>(wintabs_only_window)
 command! Tabc WintabsCloseVimtab
 command! Tabo WintabsOnlyVimtab
-
-
-
-" Omnisharp sever.
-
-" Use stdio.
-let g:OmniSharp_server_stdio = 1
-
-" Path to OmniSharp.
-let g:OmniSharp_server_path = "/data/data/com.termux/files/home/omnisharp-roslyn/OmniSharp.exe"
-
-" Use mono.
-let g:OmniSharp_server_use_mono = 1
 
 
 
