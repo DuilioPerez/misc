@@ -1,19 +1,7 @@
-BasedOnStyle: Microsoft
+BasedOnStyle: LLVM
 AccessModifierOffset: -2
-AlignAfterOpenBracket: DontAlign
-AlignArrayOfStructures: Left
-AlignConsecutiveAssignments: Consecutive
-AlignConsecutiveBitFields: Consecutive
-AlignConsecutiveDeclarations: Consecutive
-AlignConsecutiveMacros: Consecutive
-AlignEscapedNewlines: Left
-AlignOperands: Align
-AllowShortBlocksOnASingleLine: Empty
-AlwaysBreakTemplateDeclarations: Yes
-BitFieldColonSpacing: Both
-ColumnLimit: 60
+ColumnLimit: 80
 ConstructorInitializerIndentWidth: 0
 ContinuationIndentWidth: 2
 IndentWidth: 2
 NamespaceIndentation: All
-
