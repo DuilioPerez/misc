@@ -1,7 +1,8 @@
-BasedOnStyle: GNU
+BasedOnStyle: LLVM
 AccessModifierOffset: -2
 ColumnLimit: 80
 ConstructorInitializerIndentWidth: 0
 ContinuationIndentWidth: 2
+IndentWrappedFunctionNames: true
 IndentWidth: 2
 NamespaceIndentation: All
