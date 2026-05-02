@@ -1,4 +1,4 @@
-BasedOnStyle: LLVM
+BasedOnStyle: GNU
 AccessModifierOffset: -2
 ColumnLimit: 80
 ConstructorInitializerIndentWidth: 0
